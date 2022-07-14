@@ -31,28 +31,28 @@ namespace ConsoleApp41
     }
     sealed class Addition : Calculation
     {
-        public sealed override int Operate(int number1, int number2)
+        public override int Operate(int number1, int number2)
         {
             return number1 + number2;
         }
     }
     sealed class Subtraction : Calculation
     {
-        public sealed override int Operate(int number1, int number2)
+        public override int Operate(int number1, int number2)
         {
             return number1 - number2;
         }
     }
     sealed class Multiplication : Calculation
     {
-        public sealed override int Operate(int number1, int number2)
+        public override int Operate(int number1, int number2)
         {
             return number1 * number2;
         }
     }
     sealed class Devision : Calculation
     {
-        public sealed override int Operate(int number1, int number2)
+        public override int Operate(int number1, int number2)
         {
             return number1 / number2;
         }
