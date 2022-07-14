@@ -29,30 +29,30 @@ namespace ConsoleApp41
     {
         public abstract int Operate(int number1, int number2);
     }
-    class Addition : Calculation
+    sealed class Addition : Calculation
     {
-        public override int Operate(int number1, int number2)
+        public sealed override int Operate(int number1, int number2)
         {
             return number1 + number2;
         }
     }
-    class Subtraction : Calculation
+    sealed class Subtraction : Calculation
     {
-        public override int Operate(int number1, int number2)
+        public sealed override int Operate(int number1, int number2)
         {
             return number1 - number2;
         }
     }
-    class Multiplication : Calculation
+    sealed class Multiplication : Calculation
     {
-        public override int Operate(int number1, int number2)
+        public sealed override int Operate(int number1, int number2)
         {
             return number1 * number2;
         }
     }
-    class Devision : Calculation
+    sealed class Devision : Calculation
     {
-        public override int Operate(int number1, int number2)
+        public sealed override int Operate(int number1, int number2)
         {
             return number1 / number2;
         }
